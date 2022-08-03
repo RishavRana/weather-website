@@ -1,5 +1,3 @@
-console.log("you are inside client side js file!!!");
-
 // fetch("http://localhost:3000/weather?address=patna").then((response) => {
 //     response.json().then((data) => {
 //         if (data.error) {
