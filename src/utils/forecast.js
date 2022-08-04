@@ -44,14 +44,16 @@ const forecast = (latitude, longitude, callback) => {
         } else {
             callback(
                 undefined,
-                "Its " +
+                "It is currently " +
                 body.current.weather_descriptions[0] +
-                " Today and The Temperature is " +
+                "  today and  Temperature is " +
                 body.current.temperature +
-                " C and " +
+                " C . " +
                 " Wind Speed is " +
                 body.current.wind_speed +
-                "km/hr "
+                "km/hr and Humidity today is " +
+                body.current.humidity +
+                "% ."
             );
         }
     });
