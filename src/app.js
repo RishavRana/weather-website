@@ -28,21 +28,21 @@ app.use(express.static(publicDirPath));
 app.get("", (req, res) => {
     res.render("index", {
         title: "Weather",
-        name: "Andrew",
+        name: "ADITYA RANJAN",
     });
 });
 
 app.get("/about", (req, res) => {
     res.render("about", {
         title: "About",
-        name: "Mead",
+        name: "Aditya Ranjan",
     });
 });
 
 app.get("/help", (req, res) => {
     res.render("help", {
         title: "Help Meeeee",
-        name: "mead",
+        name: "Aditya Ranjan",
     });
 });
 
